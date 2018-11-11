@@ -55,7 +55,7 @@ define({
     "applicationIcon": "",
     "applicationFavicon": "/images/favicon.ico",
 
-    "signInSubtitle": "",
+    "signInSubtitle": "Califica los aparcabicis de Barcelona",
     "signInBackgroundImage": "/images/signinbg.png",
 
     "searchedAddressPushpinImage":"/images/redstickpin.png",
