@@ -1,0 +1,164 @@
+﻿html, body
+{
+    height: 100%;
+    overflow: hidden;
+}
+
+.esriCTHeaderContainer
+{
+    height: 7%;
+}
+
+.esriCTMainContainer
+{
+    height: 94%;
+}
+
+.esriCTListHeader
+{
+    height: 6%;
+}
+
+.esriCTIssueListContainer
+{
+    height: 94.3%;
+}
+
+.esriCTListPanelHeader
+{
+    width: 85%;
+}
+
+.esriCTSlidderButton
+{
+    top: 44%;
+}
+
+.esriCTGeoFormBody
+{
+    height: 95%;
+}
+
+.esriCTInfoLoader
+{
+    top: 1px;
+}
+
+.esriCTGeoFormParentContainer
+{
+    top: 5px;
+    height: 97.8%;
+}
+
+.form-control
+{
+    max-width: 100%;
+}
+
+.esriCTFullWidth, .col-xs-12 col-sm-12 col-md-8
+{
+    width: 100%;
+}
+
+.col-md-8
+{
+    width: 100% !important;
+}
+
+.esriCTHideMobileMenu
+{
+    display: none;
+}
+
+.esriCTSearchButton
+{
+    background: url('../images/search-24.png') no-repeat center;
+    background-size: 24px;
+}
+
+.esriCTLocationButton
+{
+    background-image: url(../images/current-location-32.png);
+}
+
+/* Issue Wall */
+
+.esriCTlistDetailedContainer
+{
+    height:92%;
+}
+
+/* Issue Wall */
+
+/* App Header Icons*/
+
+.esriCTHeaderIcons
+{
+    height: 24px !important;
+    width: 24px !important;
+}
+
+.esriCTMyIssuesButton
+{
+    background-image: url(../images/my-issues-24.png);
+}
+
+/* App Header Icons*/
+
+/* Web map list Icons */
+
+.esriCTInfoImg
+{
+    background-image: url('../images/info-24.png');
+}
+
+/* Web map list Icons */
+
+.esriCTCloseButton
+{
+    background-image: url(../images/close-24.png  );
+}
+
+/* Sign In Icons */
+
+.esriCTSigninGuestBtn
+{
+    background-image: url('../images/guest-user-24.png');
+}
+
+.esriCTSigninEsriButton
+{
+    background-image: url('../images/esri-24.png');
+}
+
+.esriCTSigninFBButton
+{
+    background-image: url('../images/facebook-24.png');
+}
+
+.esriCTSigninTwitterButton
+{
+    background-image: url(../images/twitter-24.png);
+}
+
+.esriCTSigninGPlusButton
+{
+    background-image: url('../images/googleplus-24.png');
+}
+
+/* Sign In Icons */
+
+/* Comment container CSS*/
+
+.esriCTEnterComment
+{
+    width: 82%;
+}
+
+.esriCTCommentsContainer
+{
+    min-height: 468px;
+    max-height: 500px;
+}
+
+/*End of comment container CSS*/

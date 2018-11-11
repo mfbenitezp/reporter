@@ -1,0 +1,369 @@
+﻿/* CSS for Mobiles */
+@media only screen and (max-width: 767px)
+{
+    .esriCTMainContainer
+    {
+        height: calc(100% - 61px);
+    }
+
+   .esriCTMap
+    {
+        height: calc(100% - 105px);
+    }
+
+    #mapParentContainer .esriCTReportButton, #mapParentContainer .esriCTListHeader
+    {
+        display: block;
+    }
+
+    #mapParentContainer, #sideContainer
+    {
+        width: 100% !important;
+        border-width: 0px; /* To remove the left border of the containers */
+    }
+
+    #mapParentContainer
+    {
+        display: none;
+    }
+
+    #sideContainer
+    {
+        display: block !important;
+    }
+
+    .esriCTLoaderParent
+    {
+        width: 100%;
+    }
+    /* App header icons */
+
+    .esriCTHeaderIcons
+    {
+        height: 44px !important;
+        width: 44px !important;
+        background-size: 44px !important;
+    }
+
+    .esriCTDesktopIcons
+    {
+        display: none;
+    }
+
+    .esriCTMobileIcons
+    {
+        display: block;
+    }
+
+    .esriCTMobileHelpIcon
+    {
+        display: none;
+    }
+
+    .esriCTHeaderContainer
+    {
+        height: 60px;
+    }
+
+    .esriCTMenuTabLeft
+    {
+        line-height: 50px;
+    }
+
+    .esriCTApplicationIcon
+    {
+        height: 59px;
+        max-height: 59px;
+    }
+
+    .esriCTHelpIcon
+    {
+        height: 24px;
+        width: 24px;
+        background-size: 24px;
+        margin-top: 15px !important;
+    }
+    /* End of App header icons */
+
+    /* GeoForm Styles */
+
+    .esriCTGeoFormParentContainer
+    {
+        width: 100%;
+        left: 0;
+    }
+    /* End of GeoForm Styles */
+
+    .esriCTCloseButton
+    {
+        margin-right: 24px;
+    }
+
+    .esriCTIssueWallMapItButton
+    {
+        display: block;
+    }
+
+    .esriCTButtonLabel {
+        display:none;
+    }
+
+    .esriCTMapItButtonVisibility
+    {
+        display:inline;
+    }
+    /* help dialog css Start*/
+    .esriCTModelDialog
+    {
+        top: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .esriCTModelDialog .modal-content
+    {
+        height:100%;
+
+    }
+
+    .esriCTModelDialog .modal-body
+    {
+        overflow: auto;
+        height: calc(100% - 60px);
+     }
+
+    .modal-dialog
+    {
+        margin:0px;
+    }
+
+    .modal-open .modal
+    {
+        overflow-y: hidden;
+    }
+    /* help dialog css END*/
+
+    /* Basemap and Legend widget CSS*/
+
+    .esriCTOnScreenWidgetContainer {
+        left: 0px;
+        top: 0px;
+        height: calc(100% - 50px);
+        width: 100%;
+    }
+
+    .esriCTOnScreenWidgetWrapper {
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+    }
+
+    /*Basemap and Legend widget CSS END*/
+
+    .esriCTInfoImg
+    {
+        background-size: 20px;
+        height: 20px;
+        width: 20px;
+    }
+
+    .esriCTInfoImgRight
+    {
+        padding: 0;
+        margin-right: 5px;
+    }
+}
+
+/* CSS for MiniTablets */
+
+@media only screen and (min-width: 480px) and (max-width:767px)
+{
+    .esriCTHeaderIcons
+    {
+        height: 44px !important;
+        width: 44px !important;
+        background-size: 44px !important;
+    }
+
+    .esriCTHeaderContainer
+    {
+        height: 60px;
+    }
+
+    .esriCTApplicationIcon
+    {
+        height: 59px;
+        max-height: 59px;
+    }
+
+    .esriCTMainContainer
+    {
+        height: calc(100% - 61px);
+    }
+
+    .esriCTMenuTabLeft
+    {
+        line-height: 50px;
+    }
+
+    .esriCTButtonLabel {
+        display:none;
+    }
+
+    .esriCTMapItButtonVisibility
+    {
+        display:inline;
+    }
+}
+
+
+/* CSS for Devices other than desktop browser */
+@media screen and (max-width:1024px)
+{
+
+    .esriCTHeaderFont
+    {
+        font-size: 17px;
+    }
+
+    .esriCTSigninAppCaptionDiv
+    {
+        height: 45px;
+    }
+
+    .esriCTHeaderIcons
+    {
+        height: 44px !important;
+        width: 44px !important;
+        background-size: 44px !important;
+    }
+
+    .esriCTHeaderContainer, .esriCTApplicationHeader
+    {
+        height: 60px;
+    }
+
+    .esriCTApplicationIcon
+    {
+        height: 59px;
+        max-height: 59px;
+    }
+
+    .esriCTMainContainer
+    {
+        height: calc(100% - 61px);
+    }
+
+    .esriCTMenuTabLeft
+    {
+        line-height: 50px;
+    }
+
+    .esriCTHeaderIcons
+    {
+        margin: 8px 24px;
+    }
+
+    /* GeoForm Styles */
+
+    .esriCTAttachmentSelectedCount
+    {
+        margin-top: 38px;
+        float: none;
+        margin-left: 0px;
+    }
+    /* End of GeoForm Styles */
+
+    /* Start New app header */
+    .esriCTLoginUserNameDiv
+    {
+        margin-top: 23px;
+    }
+
+    .esriCTHelpIcon
+    {
+       margin-top: 22px;
+    }
+
+    .esriCTCaretIcon
+    {
+        margin-top: 23px;
+    }
+    .esriCTOptions
+    {
+        top: 60px;
+    }
+
+    /* End New app header */
+
+}
+
+/* CSS for Devices other than mobile */
+@media screen and (min-width: 768px)
+{
+    #mobileMenuContainer
+    {
+        display: none !important;
+    }
+
+    #mapParentContainer
+    {
+        width: 70%;
+        display: block !important;
+    }
+
+    #sideContainer
+    {
+        width: 30%;
+        display: block !important;
+    }
+
+    .esriCTCloseButton
+    {
+        margin-right: 24px;
+    }
+}
+
+/* CSS for retina images for retina devices like ipad / tablets etc. */
+@media only screen and (min-device-width : 319px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 2)
+{
+    .esriCTSigninOrDiv
+    {
+        background-image: url('../images/seperator-2x.png') !important;
+    }
+
+}
+
+/* CSS for Tablet and iPad */
+@media only screen and (min-width: 767px) and (max-width:1024px)
+{
+    #mapParentContainer
+    {
+        width: 50% !important;
+        display: block !important;
+    }
+
+    #sideContainer
+    {
+        width: 50% !important;
+        display: block !important;
+    }
+
+    .esriCTGeoFormParentContainer {
+        width: 50% !important;
+        left: 50% !important;
+    }
+}
+
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .esriCTmapParentContainer {
+        display: none !important;
+    }
+}
+

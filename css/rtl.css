@@ -1,0 +1,278 @@
+
+/*RTL support for help dialog*/
+
+.dj_rtl .esriCTCloseHelpWindow
+{
+    right:auto;
+    left: 25px;
+}
+
+.dj_rtl .esriCTGeoFormGeoLocation
+{
+    float: left !important;
+}
+
+.dj_rtl .esriCTGeoFormBody .esriCTTxtSearch
+{
+    padding-right:5px;
+    padding-left: 70px !important;
+}
+
+.dj_rtl .esriCTGeoFormBody .esriCTLocateContainer div.input-group-btn
+{
+    right:auto;
+    left: 35px !important;
+}
+
+.dj_rtl .esriCTGeoFormBody .esriCTSearchButton
+{
+    margin-left:auto;
+    margin-right: 4px !important;
+    border-right: 1px solid #ccc !important;
+    border-left: none !important;
+}
+
+.dj_rtl .esriCTGeoFormBody .esriCTSearchClose
+{
+    right: auto;
+    left:66px !important;
+}
+
+.dj_rtl .date .input-group-addon:first-child
+{
+    border-right: 1px solid;
+    border-left: 0;
+}
+
+/*RTL support for help dialog*/
+
+/* RTL for Application Header*/
+
+.dj_rtl .esriCTHomeIcon
+{
+    float: right !important;
+}
+
+.dj_rtl .esriCTMenuTabRight 
+{
+    float: left !important;
+}
+
+.dj_rtl .esriCTOptions 
+{
+    right:auto !important;
+    left:60px;
+}
+
+.dj_rtl .esriCTMenuTabLeft 
+{
+    padding: 5px 5px 5px 15px !important;
+}
+
+/* End of RTL for Application Header*/
+
+/* RTL for side bar container */
+
+.dj_rtl .esriCTRightArrow 
+{
+    float : left;
+}
+
+.dj_rtl .esriCTWebMapLayerTitle 
+{
+    margin-right : 25px;
+}
+
+.dj_rtl .esriCTBackButton 
+{
+    float : right;
+}
+
+.dj_rtl .esriCTEditingButtons
+{
+    right: auto;
+    left: 5px;
+}
+
+.dj_rtl .esriCTEditButton, .dj_rtl .esriCTDeleteButton
+{
+    float: right;
+}
+
+.dj_rtl #sideContainer, .dj_rtl .esriCTInfoImg, .dj_rtl .esriCTVotesDetails, .dj_rtl .esriCTItemFav
+{
+    float:left !important;
+}
+
+.dj_rtl #mapParentContainer, .dj_rtl .esriCTHeaderText, .dj_rtl .esriCTDesktopIcons, .dj_rtl .esriCTReportButtonIcon 
+{
+    float: right !important;
+}
+
+.dj_rtl .esriCTItemDetail .esriCTItemDetailHeader 
+{
+    padding: 10px 10px 0 10px;
+}
+
+.dj_rtl .esriCTIssueImgSpan 
+{
+    float: right;
+    margin: 0 0 5px 5px;
+}
+
+.dj_rtl .esriCTDetailsNoResult 
+{
+    padding: 5px 10px 5px 10px;
+}
+
+.dj_rtl .esriCTItemDetail .esriCTTtemDescription, .dj_rtl .esriCTDetailsPanel    
+{
+    float: none !important;
+    
+}
+
+.dj_rtl .esriCTGeoFormParentContainer 
+{
+    left:auto;
+    right: 70%;
+}
+
+.dj_rtl .esriCTItemVotes {
+    float: right;
+    text-align: left;
+}
+
+.dj_rtl .esriCTMobileBurgerIcon {
+    padding: 14px 35px 16px 16px;
+}
+
+.dj_rtl .esriCTInfoLoader 
+{
+    margin-left:auto;
+    left:12px;
+}
+
+.dj_rtl .esriCTMobileMenuHeader 
+{
+    padding: 0px;
+}
+
+.dj_rtl .esriCTMultiLineEllipsisdiv 
+{
+    margin-right: 15px;
+}
+
+/* End of RTL for side bar container */
+
+/* RTL for Geoform */
+
+.dj_rtl .esriCTHeaderMessageDiv .close 
+{
+    float:left;
+}
+
+.dj_rtl .esriCTFileButtonContainer 
+{
+    float: right;
+}
+
+/* End of RTL for Geoform */
+
+/* RTL for Details panel */
+
+.dj_rtl .esriCTGalleryButton
+{
+    float: left !important;
+}
+
+.dj_rtl .esriCTCommentsList .esriCTAttachmentHeader
+ {
+     margin-right: 5px;
+ }
+.dj_rtl .esriCTPostCommentButton
+{
+    float: left;
+}
+
+.dj_rtl .esriCTCommentButtons
+{
+    padding: 0 10px 30px 10px;
+}
+ .dj_rtl .esriCTNonImageContainer
+ {
+    float: right;
+    margin: 0px 5px 10px 5px;
+}   
+/* End of RTL for Details panel */
+
+@media only screen and (max-width: 767px)
+{
+    .dj_rtl .esriCTGeoFormParentContainer
+    {
+        right: 0;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width:1024px)
+{
+    .dj_rtl .esriCTGeoFormParentContainer {
+        right: 50% !important;
+    }
+
+}
+
+/* CSS for modal dialog */
+
+.dj_rtl .modal-title
+{
+    float: right;
+    text-align: right;
+}
+
+.dj_rtl .esriCTClose
+{
+    float: left;
+}
+
+/* End Of CSS For Modal dialog */
+
+/** Common class for RTL for font icons **/
+
+.dj_rtl .esriCTInvertFontIcons
+{
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+/** End of common class for RTL for font icons **/
+
+/** Issue List **/
+.dj_rtl .esriCTItemSummaryHighlighter
+{
+    float: right;
+}
+/** End of issue list**/
+
+/** Overriden Styles **/
+
+.dj_rtl .esriCTGeoFormContainer .alert-dismissable .close, .dj_rtl .esriCTCommentsForm1 .alert-dismissable .close
+{
+    float: left;
+    right: 5px;
+}
+/** End of Overriden Styles **/
+
+.dj_rtl .esriCTOnScreenWidgetContainer {
+    left: 450px;
+}
+.dj_rtl .esriCTHeaderTitle {
+    float: right;
+    margin-right: 5px;
+    margin-left: 0px;
+}
+.dj_rtl .esriCTPanelCloseBtn {
+    margin-left: 5px;
+}
