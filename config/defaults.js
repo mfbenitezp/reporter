@@ -51,7 +51,7 @@ define({
   },
       //color theme.
     "theme": "#137DB9",
-    "applicationName": "Mapathon Barcelona",
+    "applicationName": "Aparcabici.cat Mapathon",
     "applicationIcon": "",
     "applicationFavicon": "/images/favicon.ico",
 
