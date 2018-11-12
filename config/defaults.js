@@ -58,7 +58,7 @@ define({
     "signInSubtitle": "Califica los aparcabicis de Barcelona",
     "signInBackgroundImage": "/images/bici_desde_arriiba.png",
 
-    "searchedAddressPushpinImage":"/images/redstickpin.png",
+    "searchedAddressPushpinImage":"/images/redstickpin.jpg",
     "enableGuestAccess": true,
     "enableFacebook": false,
     "enableTwitter": true,
