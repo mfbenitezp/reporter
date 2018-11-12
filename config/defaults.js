@@ -53,10 +53,10 @@ define({
     "theme": "#137DB9",
     "applicationName": "Aparcabici.cat Mapathon",
     "applicationIcon": "",
-    "applicationFavicon": "/images/favicon.ico",
+    "applicationFavicon": "/images/Bici-01.png",
 
     "signInSubtitle": "Califica los aparcabicis de Barcelona",
-    "signInBackgroundImage": "/images/signinbg.png",
+    "signInBackgroundImage": "/images/bici_desde_arriiba.png",
 
     "searchedAddressPushpinImage":"/images/redstickpin.png",
     "enableGuestAccess": true,
