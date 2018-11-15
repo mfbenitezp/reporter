@@ -80,7 +80,7 @@ define({
 
     "webMapInfoDescription": true,
     "webMapInfoSnippet": false,
-    "webMapInfoOwner": true,
+    "webMapInfoOwner": false,
     "webMapInfoCreated": false,
     "webMapInfoModified": false,
     "webMapInfoLicenseInfo": false,
@@ -88,8 +88,8 @@ define({
     "webMapInfoTags": false,
     "webMapInfoNumViews": false,
     "webMapInfoAvgRating": false,
-    "showNonEditableLayers": false,
-    "showPopupForNonEditableLayers" : false,
+    "showNonEditableLayers": true,
+    "showPopupForNonEditableLayers" : true,
 
     "submitMessage": "Gracias por tu aporte!",
     "likeField": "NUMVOTES",
