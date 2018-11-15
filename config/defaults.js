@@ -89,7 +89,7 @@ define({
     "webMapInfoNumViews": false,
     "webMapInfoAvgRating": false,
     "showNonEditableLayers": true,
-    "showPopupForNonEditableLayers" : true,
+    "showPopupForNonEditableLayers" : false,
 
     "submitMessage": "Gracias por tu aporte!",
     "likeField": "NUMVOTES",
