@@ -51,11 +51,11 @@ define({
   },
       //color theme.
     "theme": "#137DB9",
-    "applicationName": "Aparcabici.cat Mapathon",
+    "applicationName": "Aparcabicibcn",
     "applicationIcon": "",
     "applicationFavicon": "/images/Bici-01.png",
 
-    "signInSubtitle": "Califica los aparcabicis de Barcelona",
+    "signInSubtitle": "Califica los Aparcabicis de Barcelona",
     "signInBackgroundImage": "/images/bici_desde_arriiba.jpg",
 
     "searchedAddressPushpinImage":"/images/redstickpin.png",
