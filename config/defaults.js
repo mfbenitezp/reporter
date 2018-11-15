@@ -91,7 +91,7 @@ define({
     "showNonEditableLayers": false,
     "showPopupForNonEditableLayers" : false,
 
-    "submitMessage": "Thank you! Your report has been submitted.",
+    "submitMessage": "Gracias por tu aporte!",
     "likeField": "NUMVOTES",
     "commentField": "COMMENTS",
     "usePopupConfigurationForComment":false,
@@ -109,9 +109,9 @@ define({
     "sortingField" : "", //Field can be of type integer, string or date
     "sortingOrder" : "DESC", //ASC or DESC
     //Configure order of form components
-    "details" : "Top",
-    "attachments" : "Middle",
-    "location" : "Bottom",
+    "details" : "Middle",
+    "attachments" : "Bottom",
+    "location" : "Top",
 
     "zoomLevel": 12,
     "honorZoomLevel": false, //Flag to honor zoom level after a feature is selected
@@ -120,15 +120,15 @@ define({
     "enableLatLongSearch": false,
     "geographicalExtentLayer": "",
     //Lower level configuration
-    "submitReportButtonText" : "Submit a Report", // Text for submit report button
+    "submitReportButtonText" : "Reporte", // Text for submit report button
     "submitReportButtonColor": "#35ac46", //Color for Submit Report button.If EMPTY default color will be  #35ac46.
     "splashScreenTextColor": "#FFF", // Color of splash screen content
     "imageBackgroundColor": "#999999", // Background color icons
     "imageForeGroundColor": "white", // Foreground color of icons values (gray or white)
     //Configurable text for help dialog and help link
     "enableHelp":true,
-    "helpLinkText": "Help",
-    "helpDialogTitle":"Help",
+    "helpLinkText": "Ayuda",
+    "helpDialogTitle":"Ayuda",
     "helpDialogContent": "<p>Crowdsource Reporter is a configurable gallery application template that allows users to submit problems or observations. The application has been optimized for smartphones but is responsively designed to be used on smartphones, tablets, and desktop computers.</p><p>The Crowdsource Reporter application presents one or more maps that can be used to report a problem or observation. Users can anonymously submit new reports, review existing reports, and comment and vote on reports or observations submitted by other users. They also can authenticate with their social media or ArcGIS Online credentials and track the status of problems or observations they have reported.</p>",
     "enableDifferentHelpContent":false,
     "loginHelpDialogTitle":"",
