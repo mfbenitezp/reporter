@@ -99,7 +99,7 @@ define({
     "enableFeatureDelete" : false,
     "reportedByField": "reporter",
     "locationField": "LONG_TEXT",
-    "showMapFirst":"",
+    "showMapFirst":true,
     "showHelpOnLoad": false,
     "showBaseMapGallery": false,
     "showLegend": false,
