@@ -113,7 +113,7 @@ define({
     "attachments" : "Bottom",
     "location" : "Top",
 
-    "zoomLevel": 12,
+    "zoomLevel": 18,
     "honorZoomLevel": false, //Flag to honor zoom level after a feature is selected
     "enableUSNGSearch": false,
     "enableMGRSSearch": false,
